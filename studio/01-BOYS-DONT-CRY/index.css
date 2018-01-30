@@ -1,0 +1,50 @@
+body {
+  background-color: white;
+}
+h1 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+
+p1{
+  font-family: sans-serif;
+  position:absolute;
+  top: 175px;
+  left:400px;
+}
+p2{
+  font-family: sans-serif;
+  position:absolute;
+  top: 450px;
+  left: 200px;
+}
+
+
+.pic1{
+  position:absolute;
+  left: 1000px;
+  top: 415px;
+
+}
+
+
+.pic2 {
+  position:absolute;
+  top:105px;
+}
+
+
+.pic3 {
+  position:absolute;
+  left: 1045px;
+
+}
+
+a{
+  color: #F7B127 ;
+}
