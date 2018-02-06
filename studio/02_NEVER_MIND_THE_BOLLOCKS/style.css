@@ -1,0 +1,47 @@
+#pic1{
+  height: 400px;
+  width: 400px;
+  left: 700px;
+  top: 700px;
+  padding: 8px;
+  position: absolute;
+}
+
+#pic2{
+  height: 400px;
+  width: 400px;
+  left: 140px;
+  top: 100px;
+  padding: 8px;
+  position: absolute;
+
+}
+
+#pic3{
+
+}
+
+h1{
+  font-family: courier;
+    color: #F7B127;
+    font-style: oblique;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+p1{
+  font-family: sans-serif;
+  position: absolute;
+  top:115px;
+  left:600px;
+
+
+}
+
+p2{
+font-family: sans-serif;
+position: absolute;
+top:550px;
+left:200px;
+}
