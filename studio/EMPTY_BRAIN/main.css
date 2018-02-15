@@ -1,0 +1,30 @@
+main, h1, p{
+  font-family: 'Sanchez', serif;
+}
+
+h1{
+  margin-top:10px;
+  margin-left:500px;
+  margin-right:500px;
+  margin-bottom:10px;
+  
+
+}
+
+p:first-child::first-letter{
+  font-size: 150%;
+}
+
+p{
+  max-width: 500px;
+  margin-left: 500px;
+  margin-right: right:500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+
+small{
+  margin:25px;
+}

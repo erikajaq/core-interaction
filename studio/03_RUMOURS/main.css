@@ -1,0 +1,52 @@
+.pic01{
+  left: 600px;
+  top: 350px;
+  padding: 8px;
+  position: absolute;
+}
+
+.pic02{
+  left: 140px;
+  top: 100px;
+  padding: 8px;
+  width: 230px;
+  height: 230px;
+  position: absolute;
+
+}
+
+
+h1{
+  font-family: courier;
+    color: #F7B127;
+    font-style: oblique;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+p1{
+  font-family: sans-serif;
+  position: absolute;
+  top:115px;
+  left:600px;
+  max-width: 400px;
+}
+
+
+p2{
+    font-family: sans-serif;
+    position: absolute;
+    top:350px;
+    left:140px;
+    max-width: 400px;
+
+}
+
+p3{
+font-family: sans-serif;
+position: absolute;
+top:585px;
+left:140px;
+max-width: 400px;
+}
