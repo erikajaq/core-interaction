@@ -1,5 +1,8 @@
-a {
-  font-family: sans-serif;
+
+
+a:visited{
+  color: #FF50AC;
+
 }
 
 h1{
@@ -9,7 +12,52 @@ h1{
 }
 
 main{
-  position:absolute;
-  top:150px;
-  left: 300px;
+  font-family: 'Rajdhani', sans-serif;
+
+}
+
+.one{
+  position: absolute;
+  top:100px;
+  left:50px;
+}
+
+.two{
+  position: absolute;
+  top: 165px;
+  left: 150px;
+}
+
+.three{
+  position: absolute;
+  top: 125px;
+  left: 175px;
+}
+
+.four{
+  position: absolute;
+  top: 250px;
+  left: 400px;
+  font-size: 150%;
+}
+
+.five{
+  position: absolute;
+  top: 200px;
+  left: 645px;
+  font-size: 150%;
+}
+
+.six{
+  position: absolute;
+  top: 370px;
+  left: 500px;
+  font-size: 150%;
+}
+
+.seven{
+  position: absolute;
+  top: 300px;
+  left: 753px;
+  font-size: 150%;
 }

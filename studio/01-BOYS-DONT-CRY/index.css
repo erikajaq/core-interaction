@@ -12,13 +12,13 @@ h1 {
 
 
 p1{
-  font-family: sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   position:absolute;
   top: 175px;
   left:400px;
 }
 p2{
-  font-family: sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   position:absolute;
   top: 450px;
   left: 200px;
@@ -47,4 +47,8 @@ p2{
 
 a{
   color: #F7B127 ;
+}
+
+a:visited {
+  color: #FF50AC;
 }
