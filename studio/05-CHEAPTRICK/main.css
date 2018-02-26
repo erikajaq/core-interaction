@@ -1,0 +1,47 @@
+h1{
+  font-family: courier;
+    color: #F7B127;
+    font-style: oblique;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+p1{
+  font-family: 'Rajdhani', sans-serif;
+  position: absolute;
+  top:115px;
+  left:600px;
+  max-width: 400px;
+}
+
+
+p2{
+    font-family: 'Rajdhani', sans-serif;
+    position: absolute;
+    top:550px;
+    left:140px;
+    max-width: 400px;
+
+}
+
+a:visited{
+  color: #FF50AC;
+}
+
+.pic01{
+  left: 600px;
+  top: 350px;
+  padding: 8px;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
+
+.pic02{
+  left: 140px;
+  top: 100px;
+  padding: 8px;
+  width: 360px;
+  height: 288px;
+  position: absolute;
