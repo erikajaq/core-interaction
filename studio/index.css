@@ -61,3 +61,9 @@ main{
   left: 753px;
   font-size: 150%;
 }
+
+.eight{
+  position:absolute;
+  left:600px;
+  top:400px;
+}
