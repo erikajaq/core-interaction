@@ -16,6 +16,7 @@ main{
 
 }
 
+
 .nav-image {
     opacity: 0;
 }
@@ -31,16 +32,27 @@ main{
 
 }
 
+.one:hover{
+  color: #F7B127;
+}
+
 .two{
   position: absolute;
   top: 165px;
   left: 150px;
 }
 
+.two:hover{
+  color: #F7B127;
+}
+
 .three{
   position: absolute;
   top: 125px;
   left: 175px;
+}
+.three:hover{
+  color: #F7B127;
 }
 
 #linkboys {

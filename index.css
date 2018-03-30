@@ -1,0 +1,61 @@
+
+
+a :visited{
+  color: #FF50AC;
+
+}
+
+h1{
+  font-family: courier;
+    color: #F7B127;
+    font-style: oblique;
+    display:flex;
+    justify-content: flex-start;
+}
+
+main{
+  font-family: 'Rajdhani', sans-serif;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+#studio{
+font-size: 600%;
+color: #FF50AC;
+}
+
+#lab{
+  font-size: 600%;
+  color: #FF50AC;
+}
+
+button{
+  border:none;
+  background: none;
+  color: #FF50AC;
+  font-family: 'Rajdhani', sans-serif;
+
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY (-20px);
+    transform: translateY(-20px);
+  }
+  80%{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+button:hover {
+  animation: bounce 1s;
+}
