@@ -2,6 +2,11 @@ var block = document.querySelector('.block');
 var colors = ['black', 'orange', 'blue', 'green'];
 //the different img src will be the colors...and then youll call them in a string//
 
+//var picOne = document.querySelector('.picOne');
+// var picTwo = document.querySelector('.picTwo');
+// var picThree = document.querySelector('.picThree');
+// var photos = ['.picOne','.picTwo','picThree'];
+
 var colorIndex = 0
 
 //var blockOneIsActive = false//

@@ -16,3 +16,129 @@ p{
   top: 100px;
   left:300px;
 }
+
+#div1 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#div2 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#div3 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#div4 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#div5 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#div6 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#div7 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#div8 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#div9 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#div10 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#div11 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+#div12 {
+  font-family: courier;
+  color: #F7B127;
+  font-style: oblique;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fade-in {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;

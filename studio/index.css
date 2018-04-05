@@ -133,3 +133,19 @@ left: 800px;
   height: 300px;
 
 }
+
+#linktalk {
+  position: absolute;
+  top: 350px;
+  left: 500px;
+  font-size: 150%;
+}
+
+#pictalk{
+  position:absolute;
+  top: 400px;
+  left: 150px;
+  height:400px;
+  width: 400px;
+
+}

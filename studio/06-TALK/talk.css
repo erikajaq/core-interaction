@@ -1,0 +1,60 @@
+h1{
+  font-family: courier;
+    color: #F7B127;
+    font-style: oblique;
+    position: absolute;
+    top: 2%;;
+    right: 10%;
+}
+
+a:visited{
+  color: #FF50AC;
+}
+
+
+
+#one{
+  position:absolute;
+  top: 10%;
+  left: 30%;
+  max-width: 400px;
+}
+
+#two{
+  position: absolute;
+  position:absolute;
+  top: 70%;
+  left: 2%;
+  max-width: 400px;
+}
+
+#three{
+  position: absolute;
+  position:absolute;
+  top: 60%;
+  right: 12%;
+  max-width: 400px;
+}
+
+.paragraph{
+  font-family: 'Rajdhani', sans-serif;
+  max-width: 400px;
+}
+
+.pic{
+  width:25%;
+  position:absolute;
+  top: 10%;
+  left: 2%;
+}
+
+iframe {
+
+    position: absolute;
+    top:10%;
+    right: 2%;
+}
+
+a:hover{
+  color: #F7B127;
+}
