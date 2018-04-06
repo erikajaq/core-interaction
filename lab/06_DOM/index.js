@@ -1,36 +1,29 @@
-var block = document.querySelector('.block');
-var colors = ['black', 'orange', 'blue', 'green'];
-//the different img src will be the colors...and then youll call them in a string//
+var container = document.querySelector('.container')
+var image = document.querySelector('.image')
 
-//var picOne = document.querySelector('.picOne');
-// var picTwo = document.querySelector('.picTwo');
-// var picThree = document.querySelector('.picThree');
-// var photos = ['.picOne','.picTwo','picThree'];
+var mouseCounter = 0;
+var imageCounter = 0;
 
-var colorIndex = 0
+var images = ['nevermind.png', 'nevermind2.jpg', 'nevermind3.jpg']
 
-//var blockOneIsActive = false//
 
-window.addEventListener('mousemove', function (event) {
 
-//if (blockOneIsActive)
-{
-		block.style.top = event.pageY + 'px';
-		block.style.left = event.pageX + 'px';
+window.addEventListener('mousemove', function(event) {
 
-		if (colorIndex >= colors.length) {
-			colorIndex = 0;
+	mouseCounter++
+	image.style.top = event.pageY + 'px'
+	image.style.left = event.pageX + 'px'
+
+	if (mouseCounter % 20 === 0) {
+		console.log(imageCounter)
+		image.src = images[imageCounter]
+
+		if (imageCounter < images.length - 1) {
+			imageCounter++
 		} else {
-			colorIndex = colorIndex + 1
+			imageCounter = 0
 		}
 
-		block.style.backgroundColor = colors[colorIndex]
 	}
 
-
 })
-
-// you need to make it so that this happens when you click down, then when you drag it changes it,//
-//you need to make it so that instead of colors, its img srcs...ask m about this//
-// blockOne will be individual albums so Boysdontcry is blockOne nevermind is blockTwo etc.//
-//you need to make it so that you add a boolean where its like every 10 px instead of as fast as its going now//
