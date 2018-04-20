@@ -6,9 +6,8 @@ a :visited{
 }
 
 h1{
-  font-family: courier;
-    color: #F7B127;
-    font-style: oblique;
+  font-family: 'Kumar One';
+    color: black;
     display:flex;
     justify-content: flex-start;
 }
@@ -24,13 +23,15 @@ main{
 }
 
 #studio{
-font-size: 600%;
+font-size: 3000%;
 color: #FF50AC;
+text-decoration: none;
 }
 
 #lab{
-  font-size: 600%;
+  font-size: 3000%;
   color: #FF50AC;
+  text-decoration: none;
 }
 
 button{

@@ -6,13 +6,13 @@ a:visited{
 }
 
 h1{
-  font-family: courier;
-    color: #F7B127;
-    font-style: oblique;
+  font-family: 'Kumar One';
+    color: black;
 }
 
 main{
   font-family: 'Rajdhani', sans-serif;
+  color: #FF50AC;
 
 }
 
@@ -25,57 +25,59 @@ main{
     opacity: 1;
 }
 
-.one{
-  position: absolute;
-  top:100px;
-  left:50px;
 
+.navigation{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 2%;
 }
 
 .one:hover{
-  color: #F7B127;
+  color: chartreu60;
+  z-index: 0;
 }
-
-.two{
-  position: absolute;
-  top: 165px;
-  left: 150px;
-}
-
 .two:hover{
-  color: #F7B127;
-}
-
-.three{
-  position: absolute;
-  top: 125px;
-  left: 175px;
+  color: chartreuse;
+  z-index: 1;
 }
 .three:hover{
-  color: #F7B127;
+  color: chartreuse;
+  z-index: 2;
 }
+
 
 #linkboys {
   position: absolute;
-  top: 250px;
-  left: 400px;
-  font-size: 150%;
+  top: 35%;
+  left: 5%;
+  font-size: 500%;
+  text-decoration: none;
 
 }
+
+#linkboys:hover{
+  color: chartreuse;
+}
+
 
 #picboys{
-  position:absolute;
-  height: 250px;
-  width: 300px;
-  top:400px;
-  left:150px;
+  position:fixed;
+  top: 0;
+  left: 0%;
+  height:100%;
+  z-index: -1;
+
 }
+
+
 
 #linknever {
   position: absolute;
-  top: 200px;
-  left: 645px;
-  font-size: 150%;
+  top: 15%;
+  left: 30%;
+  font-size: 500%;
+  text-decoration: none;
 }
 
 #picnever{
@@ -89,9 +91,10 @@ main{
 
 #linkrum {
   position: absolute;
-  top: 350px;
-  left: 500px;
-  font-size: 150%;
+  top: 75%;
+  left: 25%;
+  font-size: 500%;
+  text-decoration: none;
 }
 
 #picrum{
@@ -105,9 +108,10 @@ main{
 
 #linkescape {
   position: absolute;
-  top: 300px;
-  left: 753px;
-  font-size: 150%;
+  top: 45%;
+  left: 50%;
+  font-size: 500%;
+  text-decoration: none;
 }
 
 #picescape{
@@ -120,9 +124,10 @@ left: 800px;
 
 #linkcheap {
   position:absolute;
-  left:600px;
-  top:400px;
-  font-size: 150%;
+  left:65%;
+  top:70%;
+  font-size: 500%;
+  text-decoration: none;
 }
 
 #piccheap{
@@ -136,9 +141,10 @@ left: 800px;
 
 #linktalk {
   position: absolute;
-  top: 350px;
-  left: 800px;
-  font-size: 150%;
+  top: 60%;
+  left: 10%;
+  font-size: 500%;
+  text-decoration: none;
 }
 
 #pictalk{
