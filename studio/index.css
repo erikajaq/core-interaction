@@ -10,7 +10,7 @@ h1{
     color: black;
 }
 
-main{
+ul{
   font-family: 'Rajdhani', sans-serif;
   color: #FF50AC;
 
@@ -31,10 +31,11 @@ main{
   display: flex;
   flex-direction: column;
   left: 2%;
+  text-decoration: none;
 }
 
 .one:hover{
-  color: chartreu60;
+  color: chartreuse;
   z-index: 0;
 }
 .two:hover{
@@ -45,6 +46,8 @@ main{
   color: chartreuse;
   z-index: 2;
 }
+
+
 
 
 #linkboys {
@@ -58,6 +61,7 @@ main{
 
 #linkboys:hover{
   color: chartreuse;
+  transform: rotate(15deg);
 }
 
 
@@ -74,18 +78,23 @@ main{
 
 #linknever {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 30%;
   font-size: 500%;
   text-decoration: none;
+
+}
+#linknever:hover{
+  color: chartreuse;
+  transform: rotate(-15deg);
 }
 
 #picnever{
-  position: absolute;
-  top: 250px;
-  left: 945px;
-  height:388px;
-  width:388px;
+  position:fixed;
+  top: 0;
+  left: 0%;
+  height:100%;
+  z-index: -2;
 
 }
 
@@ -96,13 +105,17 @@ main{
   font-size: 500%;
   text-decoration: none;
 }
+#linkrum:hover{
+  color: chartreuse;
+  transform: rotate(-15deg);
+}
 
 #picrum{
-  position:absolute;
-  top: 400px;
-  left: 150px;
-  height:400px;
-  width: 400px;
+  position:fixed;
+  top: 0;
+  left: 0%;
+  height:100%;
+  z-index: -3;
 
 }
 
@@ -113,14 +126,19 @@ main{
   font-size: 500%;
   text-decoration: none;
 }
+#linkescape:hover{
+  color: chartreuse;
+  transform: rotate(15deg);
+}
 
 #picescape{
-position: absolute;
-height: 400px;
-width: 400px;
-top: 350px;
-left: 800px;
+  position:fixed;
+  top: 0;
+  left: 0%;
+  height:100%;
+  z-index: -4;
 }
+
 
 #linkcheap {
   position:absolute;
@@ -129,13 +147,17 @@ left: 800px;
   font-size: 500%;
   text-decoration: none;
 }
+#linkcheap:hover{
+  color: chartreuse;
+  transform: rotate(-15deg);
+}
 
 #piccheap{
-  position: absolute;
-  left: 500px;
-  top: 450px;
-  width: 300px;
-  height: 300px;
+  position:fixed;
+  top: 0;
+  left: 0%;
+  height:100%;
+  z-index: -5;
 
 }
 
@@ -145,13 +167,39 @@ left: 800px;
   left: 10%;
   font-size: 500%;
   text-decoration: none;
+
+}
+#linktalk:hover{
+  color: chartreuse;
+  transform: rotate(15deg);
 }
 
 #pictalk{
-  position:absolute;
-  top: 400px;
-  left: 150px;
-  height:400px;
-  width: 400px;
+  position:fixed;
+  top: 0;
+  left: 0%;
+  height:100%;
+  z-index: -6;
+
+}
+
+#linksomegirls {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 500%;
+  text-decoration: none;
+}
+#linksomegirls:hover{
+  color: chartreuse;
+  transform: rotate(-15deg);
+}
+
+#picsomegirls{
+  position:fixed;
+  top: 0;
+  left: 0%;
+  height:100%;
+  z-index: -6;
 
 }
