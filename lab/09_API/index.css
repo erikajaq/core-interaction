@@ -1,0 +1,51 @@
+body{
+  background: black;
+}
+
+
+
+header{
+  font-family: 'Marvel', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  margin-top: 10%;
+  color: white;
+  -webkit-animation: fadein 4s;
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+::selection {
+  color: #DD7A61;
+}
+
+.nav-links {
+    opacity: 0;
+}
+
+.nav-item:hover .nav-links {
+    opacity: 1;
+}
+
+
+.nav{
+  margin-top: 5%;
+}
+
+.nav-links{
+  color: white;
+  text-align: center;
+  font-family: 'Marvel', sans-serif;
+  font-size: 150%;
+  transition: 3s ease;
+  margin: 1%;
+}
+
+.nav-links:hover{
+  color: #DD7A61;
+  transition: 1s ease
+}
