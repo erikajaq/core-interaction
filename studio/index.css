@@ -46,9 +46,8 @@ h1{
   z-index: 2;
 }
 
-.main{
+a{
   font-family: 'Rajdhani', sans-serif;
-  color:black;
 }
 
 
@@ -67,6 +66,7 @@ h1{
   color: chartreuse;
   transform: rotate(15deg);
   background-color: white;
+  transition: all 50ms ease
 }
 
 
@@ -76,6 +76,7 @@ h1{
   left: 0%;
   height:100%;
   z-index: -1;
+  transition: all 50ms ease
 
 }
 
@@ -95,6 +96,7 @@ h1{
   color: chartreuse;
   transform: rotate(-15deg);
   background-color: white;
+  transition: all 50ms ease
 }
 
 #picnever{
@@ -103,7 +105,7 @@ h1{
   left: 0%;
   height:100%;
   z-index: -2;
-
+transition: all 50ms ease
 }
 
 #linkrum {
@@ -119,6 +121,7 @@ h1{
   color: chartreuse;
   transform: rotate(-15deg);
   background-color: white;
+  transition: all 50ms ease
 }
 
 #picrum{
@@ -127,7 +130,7 @@ h1{
   left: 0%;
   height:100%;
   z-index: -3;
-
+transition: all 50ms ease
 }
 
 #linkescape {
@@ -143,6 +146,7 @@ h1{
   color: chartreuse;
   transform: rotate(15deg);
   background-color: white;
+  transition: all 50ms ease
 }
 
 #picescape{
@@ -151,6 +155,7 @@ h1{
   left: 0%;
   height:100%;
   z-index: -4;
+  transition: all 50ms ease
 }
 
 
@@ -167,6 +172,7 @@ h1{
   color: chartreuse;
   transform: rotate(-15deg);
   background-color: white;
+  transition: all 50ms ease
 }
 
 #piccheap{
@@ -175,6 +181,7 @@ h1{
   left: 0%;
   height:100%;
   z-index: -5;
+  transition: all 50ms ease
 
 }
 
@@ -192,6 +199,7 @@ h1{
   color: chartreuse;
   transform: rotate(15deg);
   background-color: white;
+  transition: all 50ms ease
 }
 
 #pictalk{
@@ -200,6 +208,7 @@ h1{
   left: 0%;
   height:100%;
   z-index: -6;
+  transition: all 50ms ease
 
 }
 
@@ -216,6 +225,7 @@ h1{
   color: chartreuse;
   transform: rotate(-15deg);
   background-color: white;
+  transition: all 50ms ease
 }
 
 #picsomegirls{
@@ -224,5 +234,6 @@ h1{
   left: 0%;
   height:100%;
   z-index: -6;
+  transition: all 50ms ease
 
 }
