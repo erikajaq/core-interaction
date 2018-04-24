@@ -87,6 +87,7 @@ h1{
   left: 30%;
   font-size: 500%;
   text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
   color: black;
 
 }
@@ -111,6 +112,8 @@ h1{
   left: 25%;
   font-size: 500%;
   text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
 }
 #linkrum:hover{
   color: chartreuse;
@@ -133,6 +136,8 @@ h1{
   left: 50%;
   font-size: 500%;
   text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
 }
 #linkescape:hover{
   color: chartreuse;
@@ -155,6 +160,8 @@ h1{
   top:70%;
   font-size: 500%;
   text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
 }
 #linkcheap:hover{
   color: chartreuse;
@@ -177,6 +184,8 @@ h1{
   left: 10%;
   font-size: 500%;
   text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
 
 }
 #linktalk:hover{
@@ -200,6 +209,8 @@ h1{
   left: 40%;
   font-size: 500%;
   text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
 }
 #linksomegirls:hover{
   color: chartreuse;
