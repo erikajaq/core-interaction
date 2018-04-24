@@ -2,7 +2,7 @@
 
 
 // Insert your actual API request URL below
-fetch('http://api.openweathermap.org/data/2.5/weather?zip=11211&APPID=7b7011922b1e7b66be689f613bcad17f&units=imperial')
+fetch('https://api.openweathermap.org/data/2.5/weather?zip=11211&APPID=7b7011922b1e7b66be689f613bcad17f&units=imperial')
     .then(function(response) {
         // Get the response and format it to JSON
         return response.json();
