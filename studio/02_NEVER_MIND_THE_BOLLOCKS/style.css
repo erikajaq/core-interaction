@@ -1,3 +1,16 @@
+
+.wrapper{
+  display: flex;
+}
+
+.text{
+  flex-direction: column;
+}
+
+.images{
+flex-direction: column;
+}
+
 #pic1{
   height: 400px;
   width: 400px;
