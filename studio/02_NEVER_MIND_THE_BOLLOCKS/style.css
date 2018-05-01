@@ -5,62 +5,52 @@
 
 .text{
   flex-direction: column;
+  max-width: 40%;
+  text-align: left;
+  order: 2;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 1.5;
 }
 
 .images{
+  display:flex;
 flex-direction: column;
+order: 1;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 10%;
 }
 
-#pic1{
-  height: 400px;
-  width: 400px;
-  left: 700px;
-  top: 700px;
-  padding: 8px;
-  position: absolute;
-}
 
-#pic2{
-  height: 400px;
-  width: 400px;
-  left: 140px;
-  top: 100px;
-  padding: 8px;
-  position: absolute;
 
-}
-
-#pic3{
-
-}
 
 h1{
-  font-family: courier;
-    color: #F7B127;
-    font-style: oblique;
-    position: absolute;
-    top: 50px;
-    left: 100px;
-}
-
-p1{
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Kumar One';
+  color: black;
   position: absolute;
-  top:115px;
-  left:600px;
-  max-width: 400px;
+  top: 5%;
+  left: 1%;
+  color:black;
+  text-decoration: none;
+  font-size: 300%;
+  margin-left: 2%;
+}
 
+h1:hover{
+  color: chartreuse
+}
+
+p{
+  font-family: 'Rajdhani', sans-serif;
 
 }
 
-p2{
-font-family: 'Rajdhani', sans-serif;
-position: absolute;
-top:550px;
-left:200px;
-max-width: 400px;
-}
 
+img {
+  width: 85%;
+}
 
 
 a:visited{
