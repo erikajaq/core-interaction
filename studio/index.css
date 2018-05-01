@@ -1,6 +1,6 @@
 
 
-a:visited{
+a{
   color: #FF50AC;
 
 }
@@ -9,11 +9,6 @@ h1{
   font-family: 'Kumar One';
     color: black;
 }
-
-
-
-
-
 
 
 .nav-image {
@@ -49,6 +44,7 @@ h1{
 a{
   font-family: 'Rajdhani', sans-serif;
 }
+
 
 
 #linkboys {
@@ -235,5 +231,57 @@ transition: all 50ms ease
   height:100%;
   z-index: -6;
   transition: all 50ms ease
+
+}
+
+
+@media (max-width: 768px) {
+
+
+  #linkboys {
+
+    top: 5%;
+    left: 30%;
+
+  }
+
+  #linknever {
+
+    top: 25%;
+    left: 30%;
+  }
+
+  #linkrum {
+
+    top: 45%;
+    left: 30%;
+  }
+
+  #linkescape{
+
+    top: 65%;
+    left: 30%;
+  }
+
+  #linkcheap {
+
+    top: 75%;
+    left: 30%;
+  }
+
+
+#linktalk {
+
+  top: 85%;
+  left: 30%;
+}
+
+
+#linksomegirls{
+
+  top: 105%;
+  left: 30%;
+}
+
 
 }

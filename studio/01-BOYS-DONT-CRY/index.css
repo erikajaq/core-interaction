@@ -58,3 +58,20 @@ a{
 a:hover{
   color:chartreuse;
 }
+
+header{
+padding: 50px;
+display: flex;
+justify-content: flex-end;
+font-family: 'Rajdhani', sans-serif;
+}
+
+.header-item{
+    height: 20px;
+    width: 100px;
+    display: flex;
+    margin-right: 20px;
+}
+
+
+}
