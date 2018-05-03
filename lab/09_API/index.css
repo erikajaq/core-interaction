@@ -34,6 +34,7 @@ header{
 
 .buttons {
     opacity: 0;
+    transition: 1s ease
 }
 
 .nav-item:hover .buttons {
@@ -52,31 +53,49 @@ header{
   font-size: 150%;
   transition: 3s ease;
   margin: 1%;
+
 }
 
 .nav-item:hover{
   color: #DD7A61;
-  transition: 1s ease
 }
 
 .lyrics{
   text-transform: uppercase;
-  color: #fff;
-     -webkit-animation: random 5s infinite;
-     animation: random 5s infinite;
+  font-size:500%;
+  color: red;
+     -webkit-animation: random 15s infinite;
+     animation: random 15s infinite;
 }
 
 @keyframes  random {
-    15% { color: red; }
-    30% { color: yellow; }
-    45% { color: green; }
-    60% { color: blue; }
-    75% { color: white; }
+    5% { color: #DD483A; }
+    10% { color: #DD6539; }
+    15% { color: #DD2F7A; }
+    20% { color: #D23ADD; }
+    25% { color: #AB39DD; }
+    30% { color: fuchsia; }
+    35% { color: hotpink; }
+    40% { color: lightcoral; }
+    45% { color: lightpink; }
+    50% { color: lightsalmon; }
+    55% { color: orangered; }
+    60% { color: salmon; }
+    65% { color: red; }
+    70% { color: tomato; }
+    75% { color: violet; }
+    80% { color: deeppink; }
+    85% { color: #DD483A; }
+    90% { color: #DD2F7A; }
+    95% { color: #AB39DD; }
+    100% { color: orangered; }
+
+
 }
 
 #lyric-submit{
   font-family: 'Marvel', sans-serif;
-  font-size: 75%;
+  font-size: 65%;
   border-radius: 8px;
   background-color: black;
   color: white;
@@ -84,9 +103,17 @@ header{
 }
 
 #title{
+font-family: 'Marvel', sans-serif;
+background-color:black;
+color:white;
+font-size: 55%;
+border-radius: 5px;
 
 }
 
 #artist{
-
+font-family: 'Marvel', sans-serif;
+background-color:black;
+color:white;
+border-radius: 5px;
 }
