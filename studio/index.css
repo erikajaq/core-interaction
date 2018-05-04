@@ -1,5 +1,3 @@
-
-
 a{
   color: #FF50AC;
   font-family: 'Rajdhani', sans-serif;
@@ -17,7 +15,6 @@ h1{
 }
 
 header{
-  margin: 5%;
 
 }
 
@@ -57,9 +54,7 @@ ul{
   z-index: 2;
 }
 
-a{
-  font-family: 'Rajdhani', sans-serif;
-}
+
 
 
 
@@ -92,9 +87,9 @@ a{
 
 
 #linknever {
-  /*position: absolute;
+  position: absolute;
   top: 5%;
-  left: 30%;*/
+  left: 30%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
@@ -118,9 +113,9 @@ transition: all 1s ease
 }
 
 #linkrum {
-  /*position: absolute;
+  position: absolute;
   top: 75%;
-  left: 25%; */
+  left: 25%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
@@ -143,9 +138,9 @@ transition: all 1s ease
 }
 
 #linkescape {
-  /*position: absolute;
+  position: absolute;
   top: 45%;
-  left: 50%; */
+  left: 50%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
@@ -169,9 +164,9 @@ transition: all 1s ease
 
 
 #linkcheap {
-  /*position:absolute;
+  position:absolute;
   left:65%;
-  top:70%; */
+  top:70%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
@@ -195,9 +190,9 @@ transition: all 1s ease
 }
 
 #linktalk {
-  /* position: absolute;
+  position: absolute;
   top: 60%;
-  left: 10%; */
+  left: 10%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
@@ -222,9 +217,9 @@ transition: all 1s ease
 }
 
 #linksomegirls {
-  /* position: absolute;
+  position: absolute;
   top: 60%;
-  left: 40%; */
+  left: 40%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
@@ -248,74 +243,249 @@ transition: all 1s ease
 }
 
 
-
-
-/*.one .two .three{
-  flex-direction: column;
-} */
+/////////////////////////////////
 
 @media (max-width: 365px) {
+  a{
+    color: #FF50AC;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+  }
 
+  a:hover {
+    color: chartreuse;
+  }
 
-  .all{
+  h1{
+    font-family: 'Kumar One';
+      color: black;
+  }
+
+  header{
+
+  }
+
+  .header-item{
     display:flex;
+    justify-content: flex-end;
   }
 
-  .nav-item{
-    display:flex;
-    flex-direction: column;
+  .nav-link{
+    padding-right: 2%;
   }
 
-  #linkrum #linkboys #linktalk #linkcheap #linkescape #linksomegirls #linknever{
-    display:flex;
-    flex-direction: column;
+  ul{
+    margin-left:
   }
 
 
-/*  #linkboys {
+  .nav-image {
+      opacity: 0;
+  }
 
-    top: 5%;
-    left: 30%;
+  .nav-item:hover .nav-image {
+      opacity: 1;
+  }
+
+
+  .one:hover{
+    color: chartreuse;
+    z-index: 0;
+  }
+  .two:hover{
+    color: chartreuse;
+    z-index: 1;
+  }
+  .three:hover{
+    color: chartreuse;
+    z-index: 2;
+  }
+
+
+
+
+
+  #linkboys {
+    font-size: 100%;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
 
   }
+
+  #linkboys:hover{
+    color: chartreuse;
+    transform: rotate(-15deg);
+    background-color: white;
+    transition: all 0.15s ease
+  }
+
+
+  #picboys{
+    position:fixed;
+    top: 0;
+    left: 0%;
+    height:100%;
+    z-index: -1;
+    transition: all 1s ease
+
+  }
+
+
 
   #linknever {
+    /*position: absolute;
+    top: 5%;
+    left: 30%;*/
+    font-size: 100%;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
 
-    top: 25%;
-    left: 30%;
+  }
+  #linknever:hover{
+    color: chartreuse;
+    transform: rotate(-15deg);
+    background-color: white;
+    transition: all 0.15s ease
+  }
+
+  #picnever{
+    position:fixed;
+    top: 0;
+    left: 0%;
+    height:100%;
+    z-index: -2;
+  transition: all 1s ease
   }
 
   #linkrum {
+    /*position: absolute;
+    top: 75%;
+    left: 25%; */
+    font-size: 100%;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+  }
+  #linkrum:hover{
+    color: chartreuse;
+    transform: rotate(-15deg);
+    background-color: white;
+    transition: all 0.15s ease
+  }
 
+  #picrum{
+    position:fixed;
+    top: 0;
+    left: 0%;
+    height:100%;
+    z-index: -3;
+  transition: all 1s ease
+  }
+
+  #linkescape {
+    /*position: absolute;
     top: 45%;
-    left: 30%;
+    left: 50%; */
+    font-size: 100%;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+  }
+  #linkescape:hover{
+    color: chartreuse;
+    transform: rotate(15deg);
+    background-color: white;
+    transition: all 0.15s ease
   }
 
-  #linkescape{
-
-    top: 65%;
-    left: 30%;
+  #picescape{
+    position:fixed;
+    top: 0;
+    left: 0%;
+    height:100%;
+    z-index: -4;
+    transition: all 1s ease
   }
+
 
   #linkcheap {
-
-    top: 75%;
-    left: 30%;
+    /*position:absolute;
+    left:65%;
+    top:70%; */
+    font-size: 100%;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+  }
+  #linkcheap:hover{
+    color: chartreuse;
+    transform: rotate(-15deg);
+    background-color: white;
+    transition: all 0.15s ease
   }
 
+  #piccheap{
+    position:fixed;
+    top: 0;
+    left: 0%;
+    height:100%;
+    z-index: -5;
+    transition: all 1s ease
 
-#linktalk {
+  }
 
-  top: 85%;
-  left: 30%;
-}
+  #linktalk {
+    /* position: absolute;
+    top: 60%;
+    left: 10%; */
+    font-size: 100%;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
 
+  }
+  #linktalk:hover{
+    color: chartreuse;
+    transform: rotate(15deg);
+    background-color: white;
+    transition: all 0.15s ease
+  }
 
-#linksomegirls{
+  #pictalk{
+    position:fixed;
+    top: 0;
+    left: 0%;
+    height:100%;
+    z-index: -6;
+    transition: all 1s ease
 
-  top: 105%;
-  left: 30%;
-}
+  }
 
+  #linksomegirls {
+    /* position: absolute;
+    top: 60%;
+    left: 40%; */
+    font-size: 100%;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+  }
+  #linksomegirls:hover{
+    color: chartreuse;
+    transform: rotate(-15deg);
+    background-color: white;
+    transition: all 0.15s ease
+  }
+
+  #picsomegirls{
+    position:fixed;
+    top: 0;
+    left: 0%;
+    height:100%;
+    z-index: -6;
+    transition: all 1s ease
+  }
 
 }
