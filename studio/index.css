@@ -242,6 +242,45 @@ transition: all 1s ease
 
 }
 
+#linkgo2{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 500%;
+  text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
+}
+
+#picgo2{
+  position:fixed;
+  top: 0;
+  left: 0%;
+  height:100%;
+  z-index: -6;
+  transition: all 1s ease
+
+}
+
+#linkgorilla{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-size: 500%;
+  text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
+}
+
+#picgorilla{
+  position:fixed;
+  top: 0;
+  left: 0%;
+  height:100%;
+  z-index: -6;
+  transition: all 1s ease
+
+}
 
 /////////////////////////////////
 

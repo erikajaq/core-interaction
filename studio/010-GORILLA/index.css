@@ -1,88 +1,60 @@
-#header {
-  font-family: 'Kumar One';
-  color: black;
-  position: absolute;
-  top: 5%;
-  left: 1%;
-  color:black;
-  text-decoration: none;
-  font-size: 300%;
-  margin-left: 2%;
-}
-
-#header:hover{
-  color: chartreuse
-}
-
-.wrapper{
-  display:flex;
-}
 
 
-.images{
-  display:flex;
-  flex-direction: column;
-  order: 1;
-  margin-left: 2%;
-  margin-right: 5%;
-  margin-top: 10%;
-}
 
-.container{
-  display: flex;
-  flex-direction: column;
-  max-width: 40%;
-  text-align: left;
-  order: 2;
-  margin-top: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
+  #header {
+    font-family: 'Kumar One';
+    color: black;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    color:black;
+    text-decoration: none;
+    font-size: 300%;
+    margin-left: 2%;
+  }
 
-p{
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 135%;
-  line-height: 1.5;
-}
+  #header:hover{
+    color: chartreuse
+  }
 
-a{
-  color: #FF50AC ;
-  text-decoration: none;
-}
+  .wrapper{
+    display:flex;
+  }
 
-a:hover{
-  color:chartreuse;
-}
 
-header{
-padding: 50px;
-display: flex;
-justify-content: flex-end;
-font-family: 'Rajdhani', sans-serif;
-}
+  .images{
+    display:flex;
+    flex-direction: column;
+    order: 1;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 10%;
 
-.header-item{
-    height: 20px;
-    width: 100px;
+  }
+
+  img{
+    height: 600px;
+    margin: 2%;
+  }
+
+  .container{
     display: flex;
-    margin-right: 20px;
-}
+    flex-direction: column;
+    max-width: 40%;
+    text-align: left;
+    order: 2;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
+  p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 135%;
+    line-height: 1.5;
+  }
 
-.pic1{
-  width: 500px;
-  height: 500px;
-}
-
-.pic2{
-width:500px;
-}
-
-.pic3{
-height: 552px;
-width: 500px;
-}
-
-.pic4{
-  width:500px;
-}
+  a{
+    color: #FF50AC;
+    text-decoration: none;
+  }

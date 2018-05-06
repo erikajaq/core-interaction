@@ -1,60 +1,60 @@
-.pic01{
-  left: 600px;
-  top: 350px;
-  padding: 8px;
-  position: absolute;
-  width: 400px;
-  height: 400px;
-}
-
-.pic02{
-  left: 140px;
-  top: 100px;
-  padding: 8px;
-  width: 400px;
-  height: 400px;
-  position: absolute;
-
-}
-
-.pic03{
-  position:absolute;
-  width: 300px;
-  height: 300px;
-  top: 112px;
-  left: 1050px;
 
 
-}
 
-
-h1{
-  font-family: courier;
-    color: #F7B127;
-    font-style: oblique;
+  #header {
+    font-family: 'Kumar One';
+    color: black;
     position: absolute;
-    top: 50px;
-    left: 100px;
-}
+    top: 5%;
+    left: 1%;
+    color:black;
+    text-decoration: none;
+    font-size: 300%;
+    margin-left: 2%;
+  }
 
-p1{
-  font-family: 'Rajdhani', sans-serif;
-  position: absolute;
-  top:115px;
-  left:600px;
-  max-width: 400px;
-}
+  #header:hover{
+    color: chartreuse
+  }
+
+  .wrapper{
+    display:flex;
+  }
 
 
-p2{
+  .images{
+    display:flex;
+    flex-direction: column;
+    order: 1;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 10%;
+
+  }
+
+  img{
+    height: 400px;
+    margin: 2%;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    text-align: left;
+    order: 2;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  p{
     font-family: 'Rajdhani', sans-serif;
-    position: absolute;
-    top:550px;
-    left:140px;
-    max-width: 400px;
+    font-size: 135%;
+    line-height: 1.5;
+  }
 
-}
-
-a:visited{
-  color: #FF50AC;
-}
+  a{
+    color: #FF50AC;
+    text-decoration: none;
+  }
