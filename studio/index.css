@@ -57,8 +57,12 @@ ul{
 
 
 
+/* boys dont cry*/
 
 #linkboys {
+  position:absolute;
+  top: 25%;
+  left: 10%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
@@ -85,10 +89,11 @@ ul{
 }
 
 
+/* nevermind the bollocks*/
 
 #linknever {
   position: absolute;
-  top: 5%;
+  top: 15%;
   left: 30%;
   font-size: 500%;
   text-decoration: none;
@@ -112,10 +117,12 @@ ul{
 transition: all 1s ease
 }
 
+/* rumours */
+
 #linkrum {
   position: absolute;
-  top: 75%;
-  left: 25%;
+  top: 32%;
+  left: 55%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
@@ -137,9 +144,11 @@ transition: all 1s ease
 transition: all 1s ease
 }
 
+/* escapeism*/
+
 #linkescape {
   position: absolute;
-  top: 45%;
+  top: 48%;
   left: 50%;
   font-size: 500%;
   text-decoration: none;
@@ -162,11 +171,12 @@ transition: all 1s ease
   transition: all 1s ease
 }
 
+/* cheaptrick */
 
 #linkcheap {
   position:absolute;
-  left:65%;
-  top:70%;
+  left:15%;
+  top:43%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
@@ -186,8 +196,9 @@ transition: all 1s ease
   height:100%;
   z-index: -5;
   transition: all 1s ease
-
 }
+
+/* talk */
 
 #linktalk {
   position: absolute;
@@ -215,11 +226,12 @@ transition: all 1s ease
   transition: all 1s ease
 
 }
+ /* some girls*/
 
 #linksomegirls {
   position: absolute;
   top: 60%;
-  left: 40%;
+  left: 37%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
@@ -242,14 +254,50 @@ transition: all 1s ease
 
 }
 
-#linkgo2{
-  position: absolute;
-  top: 40%;
-  left: 50%;
+/* dance */
+
+#linkdance {
+  position:absolute;
+  left:37%;
+  top:85%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
   color: black;
+}
+#linkdance:hover{
+  color: chartreuse;
+  transform: rotate(-15deg);
+  background-color: white;
+  transition: all 0.15s ease
+}
+
+#picdance{
+  position:fixed;
+  top: 0;
+  left: 0%;
+  height:100%;
+  z-index: -5;
+  transition: all 1s ease
+}
+
+/*go 2*/
+
+#linkgo2{
+  position: absolute;
+  top: 72%;
+  left: 60%;
+  font-size: 500%;
+  text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
+}
+
+#linkgo2:hover{
+  color: chartreuse;
+  transform: rotate(-15deg);
+  background-color: white;
+  transition: all 0.15s ease
 }
 
 #picgo2{
@@ -262,14 +310,23 @@ transition: all 1s ease
 
 }
 
+/* gorilla */
+
 #linkgorilla{
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 77%;
+  left: 10%;
   font-size: 500%;
   text-decoration: none;
   font-family: 'Rajdhani', sans-serif;
   color: black;
+}
+
+#linkgorilla:hover{
+  color: chartreuse;
+  transform: rotate(-15deg);
+  background-color: white;
+  transition: all 0.15s ease
 }
 
 #picgorilla{
@@ -285,246 +342,6 @@ transition: all 1s ease
 /////////////////////////////////
 
 @media (max-width: 365px) {
-  a{
-    color: #FF50AC;
-    font-family: 'Rajdhani', sans-serif;
-    text-decoration: none;
-  }
 
-  a:hover {
-    color: chartreuse;
-  }
-
-  h1{
-    font-family: 'Kumar One';
-      color: black;
-  }
-
-  header{
-
-  }
-
-  .header-item{
-    display:flex;
-    justify-content: flex-end;
-  }
-
-  .nav-link{
-    padding-right: 2%;
-  }
-
-  ul{
-    margin-left:
-  }
-
-
-  .nav-image {
-      opacity: 0;
-  }
-
-  .nav-item:hover .nav-image {
-      opacity: 1;
-  }
-
-
-  .one:hover{
-    color: chartreuse;
-    z-index: 0;
-  }
-  .two:hover{
-    color: chartreuse;
-    z-index: 1;
-  }
-  .three:hover{
-    color: chartreuse;
-    z-index: 2;
-  }
-
-
-
-
-
-  #linkboys {
-    font-size: 100%;
-    text-decoration: none;
-    font-family: 'Rajdhani', sans-serif;
-    color: black;
-
-  }
-
-  #linkboys:hover{
-    color: chartreuse;
-    transform: rotate(-15deg);
-    background-color: white;
-    transition: all 0.15s ease
-  }
-
-
-  #picboys{
-    position:fixed;
-    top: 0;
-    left: 0%;
-    height:100%;
-    z-index: -1;
-    transition: all 1s ease
-
-  }
-
-
-
-  #linknever {
-    /*position: absolute;
-    top: 5%;
-    left: 30%;*/
-    font-size: 100%;
-    text-decoration: none;
-    font-family: 'Rajdhani', sans-serif;
-    color: black;
-
-  }
-  #linknever:hover{
-    color: chartreuse;
-    transform: rotate(-15deg);
-    background-color: white;
-    transition: all 0.15s ease
-  }
-
-  #picnever{
-    position:fixed;
-    top: 0;
-    left: 0%;
-    height:100%;
-    z-index: -2;
-  transition: all 1s ease
-  }
-
-  #linkrum {
-    /*position: absolute;
-    top: 75%;
-    left: 25%; */
-    font-size: 100%;
-    text-decoration: none;
-    font-family: 'Rajdhani', sans-serif;
-    color: black;
-  }
-  #linkrum:hover{
-    color: chartreuse;
-    transform: rotate(-15deg);
-    background-color: white;
-    transition: all 0.15s ease
-  }
-
-  #picrum{
-    position:fixed;
-    top: 0;
-    left: 0%;
-    height:100%;
-    z-index: -3;
-  transition: all 1s ease
-  }
-
-  #linkescape {
-    /*position: absolute;
-    top: 45%;
-    left: 50%; */
-    font-size: 100%;
-    text-decoration: none;
-    font-family: 'Rajdhani', sans-serif;
-    color: black;
-  }
-  #linkescape:hover{
-    color: chartreuse;
-    transform: rotate(15deg);
-    background-color: white;
-    transition: all 0.15s ease
-  }
-
-  #picescape{
-    position:fixed;
-    top: 0;
-    left: 0%;
-    height:100%;
-    z-index: -4;
-    transition: all 1s ease
-  }
-
-
-  #linkcheap {
-    /*position:absolute;
-    left:65%;
-    top:70%; */
-    font-size: 100%;
-    text-decoration: none;
-    font-family: 'Rajdhani', sans-serif;
-    color: black;
-  }
-  #linkcheap:hover{
-    color: chartreuse;
-    transform: rotate(-15deg);
-    background-color: white;
-    transition: all 0.15s ease
-  }
-
-  #piccheap{
-    position:fixed;
-    top: 0;
-    left: 0%;
-    height:100%;
-    z-index: -5;
-    transition: all 1s ease
-
-  }
-
-  #linktalk {
-    /* position: absolute;
-    top: 60%;
-    left: 10%; */
-    font-size: 100%;
-    text-decoration: none;
-    font-family: 'Rajdhani', sans-serif;
-    color: black;
-
-  }
-  #linktalk:hover{
-    color: chartreuse;
-    transform: rotate(15deg);
-    background-color: white;
-    transition: all 0.15s ease
-  }
-
-  #pictalk{
-    position:fixed;
-    top: 0;
-    left: 0%;
-    height:100%;
-    z-index: -6;
-    transition: all 1s ease
-
-  }
-
-  #linksomegirls {
-    /* position: absolute;
-    top: 60%;
-    left: 40%; */
-    font-size: 100%;
-    text-decoration: none;
-    font-family: 'Rajdhani', sans-serif;
-    color: black;
-  }
-  #linksomegirls:hover{
-    color: chartreuse;
-    transform: rotate(-15deg);
-    background-color: white;
-    transition: all 0.15s ease
-  }
-
-  #picsomegirls{
-    position:fixed;
-    top: 0;
-    left: 0%;
-    height:100%;
-    z-index: -6;
-    transition: all 1s ease
-  }
 
 }
