@@ -341,6 +341,56 @@ transition: all 1s ease
 
 /////////////////////////////////
 
+@media (max-width: 780px) {
+
+/* #linkgo2{
+  font-size: 250%;
+}
+#linkrum{
+  font-size: 250%;
+}
+#linkboys{
+  font-size: 250%;
+}
+#linktalk{
+  font-size: 250%;
+}
+#linkdance{
+  font-size: 250%;
+}
+#linkcheap{
+  font-size: 250%;
+}
+#linknever{
+  font-size: 250%;
+}
+#linkescape{
+  font-size: 250%;
+}
+#linkgorilla{
+  font-size: 250%;
+}
+#linksomegirls{
+  font-size: 250%;
+} */
+
+.nav-item{
+  display:flex;
+  flex-direction: column;
+}
+
+}
+
+@media (max-width: 365px) {
+
+
+}
+
+@media (max-width: 365px) {
+
+
+}
+
 @media (max-width: 365px) {
 
 
