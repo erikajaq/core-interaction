@@ -58,3 +58,8 @@
     color: #FF50AC;
     text-decoration: none;
   }
+
+.arrow img{width:200px;height: auto;z-index: 2;}
+.arrow{
+  text-align: right;
+}
