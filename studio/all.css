@@ -81,7 +81,7 @@ opacity: 1;
 }
 .arrowback{
 
-  flex-direction:row;
+  flex-direction:row-reverse;
 }
 
 .arrowback:hover{
