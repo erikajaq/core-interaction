@@ -10,12 +10,23 @@ a:hover {
   color: chartreuse;
 }
 
+.header{
+  position: relative;
 
+}
 
-.main{
+.header.title{
   font-family: 'Kumar One';
     color: black;
     font-size: 300%;
+}
+
+.header.item{
+  position: absolute;
+  right:0;
+  top:40%;
+  display:flex;
+
 }
 .main:hover{
   color:chartreuse;
@@ -27,9 +38,9 @@ a:hover {
   margin-top: 0;
 }
 
-.header-item{
-  display:flex;
-  justify-content: flex-end;
+.header .item{
+  /*display:flex;
+  justify-content: flex-end; */
 }
 
 .nav-image {
@@ -343,7 +354,7 @@ transition: all 1s ease
 }
 
 
-@media (max-width: 430px) {
+@media only screen and (max-device-width: 430px) {
 
   .nav-item{
     display:flex;
@@ -357,35 +368,14 @@ transition: all 1s ease
     font-size: 165%;
   }
 
-  /* #linkgo2{
-    font-size: 250%;
+  .header.title {
+    font-size: 150%;
   }
-  #linkrum{
-    font-size: 250%;
+
+  .header.item{
+    top:90%;
   }
-  #linkboys{
-    font-size: 250%;
-  }
-  #linktalk{
-    font-size: 250%;
-  }
-  #linkdance{
-    font-size: 250%;
-  }
-  #linkcheap{
-    font-size: 250%;
-  }
-  #linknever{
-    font-size: 250%;
-  }
-  #linkescape{
-    font-size: 250%;
-  }
-  #linkgorilla{
-    font-size: 250%;
-  }
-  #linksomegirls{
-    font-size: 250%;
-  } */
+
+
 
 }
